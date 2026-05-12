@@ -118,7 +118,7 @@ void loop() {
     // Validasi hasil pembacaan (0-400 cm adalah rentang normal HC-SR04)
     if (distanceCm > 0 && distanceCm < 400) {
       // Kirim data ke Blynk
-      Blynk.virtualWrite(VPIN_DISTANCE, distanceCm);
+      Blynk.virtualWrite(VPIN_DISTANCE, distanceCm); // kode mengirimkan nilai sensor ke blynk (virtual pin, nilai sensor)
       
       // Tampilkan di Serial Monitor
       Serial.print("Jarak: ");
