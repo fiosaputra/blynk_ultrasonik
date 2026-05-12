@@ -22,8 +22,8 @@ char ssid[] = "YourWiFiSSID";      // Ganti dengan nama WiFi
 char pass[] = "YourWiFiPassword";  // Ganti dengan password WiFi
 
 /* ========== PIN DEFINITIONS ========== */
-#define TRIG_PIN 5      // Pin Trigger Ultrasonik
-#define ECHO_PIN 18     // Pin Echo Ultrasonik
+#define TRIG_PIN 33      // Pin Trigger Ultrasonik
+#define ECHO_PIN 32     // Pin Echo Ultrasonik
 #define LED1_PIN 25     // LED 1 - Kontrol Blynk V1
 #define LED2_PIN 26     // LED 2 - Kontrol Blynk V2
 #define WIFI_LED 2      // Built-in LED ESP32 (indikator WiFi)
